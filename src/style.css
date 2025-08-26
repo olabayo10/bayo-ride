@@ -1,0 +1,125 @@
+* {
+    background-color: lightgray;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+
+.header-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav ul {
+    gap: 10px;
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+} 
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: rgb(0, 255, 238);
+}
+
+nav a:active {
+    color: red;
+}
+
+.sec-div ul a {
+    list-style: none;
+    display: block;
+    padding: 10px 15px;
+    padding: 0;
+    text-decoration: none;
+    color: rgba(246, 228, 63, 0.866);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.sec-div a:hover {
+    text-decoration: underline;
+    background-color: #0056b3;
+}
+
+.sec-div a:active {
+    background-color: #003d80;
+    transform: scale(0.95);
+}
+
+.for-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+.newbut {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    margin-top: 3px;
+    margin-left: auto;
+}
+
+.menu-icon span {
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background: yellowgreen; 
+    align-items: center;
+}
+
+.nav-links.show {
+    display: flex;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}

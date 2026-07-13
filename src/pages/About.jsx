@@ -26,12 +26,12 @@ export default function About() {
             <div className="aboutbig-container">
                 <div className="boxes">
                     <FaBicycle className="abt-icon"/>
-                    <h2 className="text1">2+</h2>
+                    <h2 className="text1">3+</h2>
                     <p className="para1">Years of experience</p>
                 </div>
                 <div className="boxes">  
                     <FaRoute className="abt-icon" />
-                    <h2 className="text1">2,000</h2>
+                    <h2 className="text1"> over 2,500</h2>
                     <p className="para1">clients served</p>
                 </div>
                 <div className="boxes">

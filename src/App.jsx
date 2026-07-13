@@ -32,16 +32,16 @@ export default function App () {
                 </div>
                 <div className="stats">
                     <div className="box">
-                        <h2 className="box-newh2"> 1000 </h2>
+                        <h2 className="box-newh2"> 2350 </h2>
                         <p className="box-newp">Clients Reached</p>
                     </div>
                     <div className="box">
                         <h2 className="box-newh2">500</h2>
-                        <p className="box-newp">deliveries done in past 3 months</p>
+                        <p className="box-newp"> Items deliveries done in past 3 months</p>
                     </div>
                     <div className="box">
-                        <h2 className="box-newh2">2000 </h2>
-                        <p className="box-newp">delivered in 2024</p>
+                        <h2 className="box-newh2">1500 </h2>
+                        <p className="box-newp"> Items delivered so far in 2026</p>
                     </div>
                 </div>  
             </div>

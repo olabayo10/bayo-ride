@@ -995,7 +995,7 @@ nav a:focus-visible {
     gap: 40px;
     padding: 1rem;
     color: white;
-    background: var(--navy);
+    background: var(--muted);
     border: 1px solid black;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -1010,7 +1010,6 @@ nav a:focus-visible {
     margin-top: auto;
     padding: 1rem 6px;
     color: white;
-    background: var(--navy);
 }
 
 .footer-box {
@@ -1021,10 +1020,6 @@ nav a:focus-visible {
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
     width: auto;
     background: var(--muted);
-}
-
-.footer-box:hover {
-    color: #0c1926;
 }
 
 .footer-box h2 {
@@ -1038,7 +1033,7 @@ nav a:focus-visible {
 }
 
 .foot-div h2 {
-    color: black;
+    color: whitesmoke;
     font-style: arial;
 }
 
@@ -1064,7 +1059,7 @@ nav a:focus-visible {
 
 .info p {
     line-height: 1.6;
-    color: black;
+    color: whitesmoke;
     font-style: arial;
 }
 

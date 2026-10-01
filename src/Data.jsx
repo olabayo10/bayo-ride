@@ -22,7 +22,7 @@ export default [
 
     {
         image: ranpic,
-        name: "John ",
+        name: "John",
         designation: "Supervisor",
         quote: "Put all your trust in God", 
     },
@@ -31,6 +31,6 @@ export default [
         image: debby,
         name: "Deborah Dada",
         designation: "Admin",
-        quote: "If God be for us", 
+        quote: "If God be for us, no one can be against us", 
     }
 ]

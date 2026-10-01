@@ -4,6 +4,14 @@ import { useState } from "react";
 import mylogo from "../Images/mylogo.png"
 
 
+const links = [
+    { to: "/", label: "HOME"},
+    { to: "/about", label: "ABOUT US" },
+    { to: "/contact", label: "CONTACT US" },
+    { to: "/team", label: "OUR TEAM" },
+];
+
+
 export default function Header () {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
@@ -29,14 +37,15 @@ export default function Header () {
     return (
         <header className="header-head">
             <div className="nav-content">
-                <img src={mylogo} alt="logo" width={130} height={70}/>
+                <img src={mylogo} alt="Bayoride Logistics logo"/>
            
                 <nav className={`nav-links ${menuOpen ? "show" : ""}`}>
                     <ul>
-                        <li><Link to="/" onClick={handleLinkClick}>HOME</Link></li>
-                        <li><Link to="/about" onClick={handleLinkClick}>ABOUT US</Link></li>
-                        <li><Link to="/contact" onClick={handleLinkClick}>CONTACT US</Link></li>
-                        <li><Link to="/team" onClick={handleLinkClick}>OUR TEAM</Link></li>
+                        {links.map(({ to, label }) => (
+                            <li key={to}>
+                                <Link to={to} onClick={handleLinkClick}>{label}</Link>
+                            </li>
+                        ))} 
                     </ul>
                 </nav>
                 <div className={`menu-icon ${menuOpen ? "show" : ""}`} onClick={() => {

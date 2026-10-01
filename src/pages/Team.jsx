@@ -1,13 +1,15 @@
-import { useState } from "react"
-export default function Team (props) {
+import { FaQuoteLeft } from "react-icons/fa";
 
-
+export default function Team({ image, name, quote, designation }) {
     return (
         <div className="team-card">
-            <img src={props.image} alt="img"  className="img-photo"/>
-            <p> <strong>Name:</strong> {props.name}</p>
-            <p> <strong>Fav quotes:</strong> {props.quote}</p>
-            <p> <strong>Designation: </strong>{props.designation} </p>
+            <img src={image} alt={name} className="img-photo" />
+            <h3 className="team-name">{name}</h3>
+            <span className="team-role">{designation}</span>
+            <p className="team-quote">
+                <FaQuoteLeft className="team-quote-icon" />
+                {quote}
+            </p>
         </div>
     )
 }

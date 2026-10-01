@@ -4,43 +4,70 @@ import logo from "../Images/mylogo.png"
 import insta from "../Images/instagram-icon.png";
 import gmail from "../Images/gmail.png";
 import whats from "../Images/wappicon.png";
-import {FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt} from "react-icons/fa";
+import {FaPhoneAlt, FaEnvelope, FaWhatsapp, FaInstagram, FaMapMarkerAlt} from "react-icons/fa";
 
 export default function Footer ({author}) {
 
     return (
         <footer className="footer">
             <div className="foot-main">
-                <div className="foot-red">
+                
+                <div className="footer-box">
                     <div className="big-logo">
-                        <img src={logo} alt="yo" height={100} />
+                        <img src={logo} alt="yo" className="footer-logo" />
                     </div>
-                    <div className="main-foot-logo">
-                        <h3 className="foot-h3"> Main Office</h3>
-                        <p className="p-foot">Reach our customer service via <br/>
-                            <strong><a href="tel:08148455678">08148455678</a></strong>
-                        </p>
-                        <p className="p-foot">For further equiries contact us at <br />
-                            <strong> <a href="mailto:bayorideloistics@gmail.com">bayoridelogistics@gmail.com</a></strong> 
-                        </p>
-                        <p className="p-foot"> Redemption City Office <br />
-                            <strong><span> 1, Meekness Road,Redemption City. </span></strong> 
-                        </p>
-                    </div>
-                </div>
-                <div className="foot-blue">
-                    <div className="branch">
-                        <h3 className="foot-h3"> Branch Office</h3>
-                        <p className="p-foot">Reach Us at  <br/>
-                            <strong><a href="tel:08133823348">08133823348</a></strong>
-                        </p>
-                        <p className="p-foot">Further information contact us at <br/>
-                            <strong> <a href="mailto:bayorideloistics@gmail.com">bayoridelogistics@gmail.com</a></strong>
-                        </p>
-                        <p className="p-foot"> Lagos Office <br/>
-                            <strong> <span> Jaja Complex, University of Lagos. </span></strong> 
-                        </p> 
-                    </div>
+                    <div className="main-foot">
+                        <h2> Main Office</h2>
+                        <div className="foot-div">
+                            <div FaPhoneAlt className="info">
+                                <h4>
+                                    <FaPhoneAlt className="icon" />
+                                    Call
+                                </h4>
+                                <p> 08148455678</p>
+                            </div>
+                            <div FaEnvelope className="info">
+                                <h4>
+                                    <FaEnvelope className="icon"/>
+                                    Email
+                                </h4>
+                                <p>bayoridelogistics@gmail.com </p>
+                            </div>
+                            <div FaMapMarkerAlt className="info">
+                                <h4>
+                                    < FaMapMarkerAlt className="icon"/>
+                                    Address
+                                </h4>
+                                <p> 1, Meekness Road,Redemption City. </p>
+                            </div>
+                        </div>
+                    </div>    
+                    <div className="main-foot">
+                        <h2> Branch Office</h2>
+                        <div className="foot-div">
+                            <div FaPhoneAlt className="info">
+                                <h4>
+                                    <FaPhoneAlt className="icon" />
+                                    Call
+                                </h4>
+                                <p> 08133823348</p>
+                            </div>
+                            <div FaEnvelope className="info">
+                                <h4>
+                                    <FaEnvelope className="icon"/>
+                                    Email
+                                </h4>
+                                <p>bayoridelogistics@gmail.com </p>
+                            </div>
+                            <div FaMapMarkerAlt className="info">
+                                <h4>
+                                    <FaMapMarkerAlt className="icon"/>
+                                    Address
+                                </h4>
+                                <p> Jaja Complex, UNILAG </p>
+                            </div> 
+                        </div>
+                    </div>   
                     <div className="logo">
                         <div className="wa-logo">
                             <a  href="https://www.instagram.com/bayoridelogistics"
@@ -57,8 +84,9 @@ export default function Footer ({author}) {
                         <div className="wa-logo">
                             <a href="mailto:bayorideloistics@gmail.com"><img src={gmail} alt="gmail" height={60} className="logo-t"/></a>
                         </div>
-                    </div>
-                </div>
+                    </div>   
+                </div>  
+                
             </div>
             <div className="foot-div2">
                 <div>&copy; {new Date().getFullYear()} {author}'s Logistics. All rights reserved</div>

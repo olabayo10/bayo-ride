@@ -995,7 +995,7 @@ nav a:focus-visible {
     gap: 40px;
     padding: 1rem;
     color: white;
-    background: var(--muted);
+    background: var(--navy);
     border: 1px solid black;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -1019,7 +1019,7 @@ nav a:focus-visible {
     border-radius: 20px;
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
     width: auto;
-    background: var(--muted);
+    background: var(--navy);
 }
 
 .footer-box h2 {

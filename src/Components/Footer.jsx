@@ -38,7 +38,7 @@ export default function Footer ({author}) {
                                     < FaMapMarkerAlt className="icon"/>
                                     Address
                                 </h4>
-                                <p> 1, Meekness Road,Redemption City. </p>
+                                <p> 1, Meekness Road, Redemption City. </p>
                             </div>
                         </div>
                     </div>    

@@ -1083,9 +1083,8 @@ nav a:focus-visible {
     justify-content: center;
     border-radius: 50%;
     font-size: 1.3rem;
-    color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    background: var(--muted);
+    background: #fff;
     transition: transform 0.25s, background 0.25s, color 0.25s;
 }
 

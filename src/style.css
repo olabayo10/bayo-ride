@@ -1246,12 +1246,9 @@ nav a:focus-visible {
         grid-template-columns: 1fr;
     }
 
-    /* team section */
-
-    .team-section {
-        max-width: 90%;
+    .team-card {
+        width: auto;
     }
-
 
     /* contact */
 

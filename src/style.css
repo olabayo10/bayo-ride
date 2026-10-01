@@ -1003,15 +1003,6 @@ nav a:focus-visible {
 }
 
 
-
-.foot-div2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    padding: 1rem 6px;
-    color: white;
-}
-
 .footer-box {
     padding: 35px;
     color: white;
@@ -1123,6 +1114,16 @@ nav a:focus-visible {
     flex-direction: column;
 }
 
+.foot-div2 {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 1rem;
+    margin-top: auto;
+    padding: 1rem 15px;
+    color: white;
+    background: var(--navy);
+}
 
 @media (max-width: 800px) {
     :root {

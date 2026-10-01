@@ -89,8 +89,8 @@ export default function Footer ({author}) {
                 
             </div>
             <div className="foot-div2">
-                <div>&copy; {new Date().getFullYear()} {author}'s Logistics. All rights reserved</div>
-                <div><small>designed by {author}</small></div>
+                <div>&copy; {new Date().getFullYear()} {author}'s Logistics. All rights reserved.</div>
+                <div><small>Designed by {author}</small></div>
             </div>
         </footer>
     )
